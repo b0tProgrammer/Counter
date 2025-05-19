@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: violet;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+#count {
+    margin-top: 10px;
+    color:rgb(87, 255, 87);
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.buttons button {
+    background-color: rgb(30, 34, 35);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.buttons button:hover {
+    background-color: rgb(107, 5, 5);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgb(67, 66, 66);
+}   
